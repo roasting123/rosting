@@ -1,0 +1,13 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for RoastBoard (e.g. nightly rank recompute, signed Cloudinary deletes)",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions"
+  },
+  "engines": { "node": "20" },
+  "dependencies": {
+    "firebase-admin": "^12.4.0",
+    "firebase-functions": "^5.1.0"
+  }
+}
